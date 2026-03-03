@@ -10,7 +10,7 @@ body {
     display: grid;
     grid-template-rows: 300px 1fr 1fr;
     gap: 40px;
-    height: 100vh;
+    height: 80vh;
     background: url("student2.jpeg") no-repeat center;
     border-bottom-left-radius: 50% 10%;
     border-bottom-right-radius: 50% 10%;
@@ -18,7 +18,7 @@ body {
     position: relative;
 }
 header {
-    background: rgba(0, 0, 0, 0.6);
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -43,17 +43,22 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
-    padding-bottom: 18px;
+    margin-bottom: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-size: 3rem;
+}
+.goic > p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 
 
 main {
     display: flex;
+    flex-wrap: wrap;
     gap: 35px;
-    height: 80vh;
+    pad: 40px 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -68,6 +73,9 @@ main {
     padding: 80px 20px;
     margin: auto;
     max-width: 700px;
+}
+main > section {
+    flex: 1 1 280px;
 }
  h2 {
     color: lightcyan;
@@ -87,25 +95,33 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+
+
 footer {
     display: auto 100px;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
-    border-top-left-radius: 50% 10%;
-    border-top-right-radius: 50% 10%;
+    background: white;
+    
 }
 .top-footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: black;
+    margin-bottom: 20px;
+    
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 3vh;
 }
 h3 {
-    padding-bottom: 18px;
-    color: lightcyan;
+    padding-bottom: 15px;
+    color: #b22222;
     font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
 }
 .copyright {
     height: 50%;
@@ -115,4 +131,8 @@ h3 {
     flex: 1;
     text-align: center;
     padding-top: 15px;
+}
+a {
+    text-decoration: none;
+    color: lightseagreen;
 }
