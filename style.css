@@ -132,8 +132,6 @@ footer {
     text-align: center;
     color: black;
     margin-bottom: 20px;
-    
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
      line-height: 3vh;
 }
 h3 {
@@ -147,6 +145,7 @@ h3 {
     
     background: white;
     flex: 1;
+    font-size: 10px;
     text-align: center;
     padding-top: 25px;
 }
